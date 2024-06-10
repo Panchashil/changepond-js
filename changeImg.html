@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img src="../assets/images/dosa.jfif" id="img1" alt="dosa" height="300px" width="300px"> <br>
+    <strong id="imgName">Dosa</strong> <br>
+    <button type="button" onclick="chaneImage()">Change Image</button>
+
+    <script>
+        function chaneImage(){
+           document.getElementById("img1").src= "../assets/images/samosa-1.jfif";
+           document.getElementById("imgName").innerHTML = "Samosa";
+        }
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        let courses = ["React","Angular","Java","Python"];
+        console.log(courses);
+        console.log(`array length:${courses.length}`);
+        console.log(`Array Size:${courses.length-1}`);
+
+        //how to access array data outside array
+       console.log(courses[1]);
+       // how to manipulate array data 
+       courses[2] = "Advanced Java";
+       console.log(courses);
+   
+       for(let i=0; i < courses.length;i++){
+             document.write(courses[i],",");
+       }
+       document.write("<br>");
+// for of : it will return array values.
+for(let course of courses){
+    document.write(course,",");
+} 
+document.write("<br>");
+// for in : it will return array index.
+for(let course in courses){
+    document.write(course,",");
+} 
+document.write("<br>");
+
+//1.push(): it allows us to insert data at last index of an array.
+ courses.push("Nodejs","ExpressJs");
+ document.write(courses,"<br>");
+//2.pop() : it is use to remove values from last index of an array, it remove single value at a time.
+courses.pop();
+document.write(courses,"<br>");
+
+//3.unshift(): it allows us to insert data at starting index of an array.
+courses.unshift("Html","Css");
+document.write(courses,"<br>");
+
+//4.shift(): it is use to remove values from starting index of an array, it remove single value at a time.
+    courses.shift();
+    document.write(courses,"<br>");
+
+//5.splice(startIndex,deleteCount,dataToInsert):it allows us to add and remove values from middle index of an array.   
+   
+courses.splice(3,0,"Sass","Typescrip"); // it will add two values from 3rd index
+document.write(courses,"<br>");
+
+courses.splice(4,2);//it will remove two values from 4 index.
+document.write(courses,"<br>");
+
+courses.splice(2,1,"Wordpress","Digital Marketing"); // it will remove one value from 2nd index and insert two value
+document.write(courses,"<br>");
+
+
+//6. tostring(): it convert arrray data into string
+console.log(courses);
+console.log(courses.toString());
+
+//7.join(seperator):it convert arrray data into string data, it takes one parameter to seperate data
+console.log(courses.join("*"));
+console.log(courses.join(" "));
+
+   </script>
+</body>
+</html>

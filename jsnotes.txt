@@ -1,0 +1,147 @@
+7/6/2024
+
+Javascript: -it is use to add functionality and behavior into webapp.
+            -it is interpreted language.
+            -it is loosely typed language. 
+
+*there are two ways to use Javascript
+1. internal js : in html file we use script and in that script we write js code.
+2. external js: first we create a seperate js file and that js file we import in html file by using script tag.
+
+*How to display output in js 
+1.document.write(): it will display output on html page. it display output in single line
+2.window.alert(): it will generate one popup and display output in it.
+3.console.log(): it will gives output in browser console or in terminal.
+4.innerHtml(DOM): it allows us to insert data inside an element. 
+====================================================================================
+10/6/23
+
+-in Javascript window is global object 
+-By using DOM hoe to set,get value from element.
+-how to apply style rule to an element  by using DOM 
+
+*function : 
+-it is block of code , which is use to perform specific task.
+-it will execute only when we call it.
+
+*Thera are mainly two types of function.
+1.Predefine function: provided by Javascript
+2.User-define function : created by user 
+
+*How to get values from input control 
+*how to use onlcick event.
+
+2009(ECMA script-5 ):
+2015(ECMA script-6) : 
+
+* Data types in Javascript
+there are two types data type 
+1.premitive datatype: number,string,boolean,undefine,null.
+2.non-primitive datatype: array , object .
+
+
+*Array : 
+-it is use to store multiple values with same datatype in single variable.
+-in array values store on index basis.
+-array index always start from zero index. 
+-array denoted by [] bracket.
+-we can access array data outside array by writting arrayName[indexNumber]
+
+* array length: total number of values available in it.
+  syntax: arrayName.length  
+*array Size : total number of index  
+syntax: arrayName.length-1
+
+*Array method
+
+*object data type :
+-it is use to store multiple values with different datatype in single variable.
+-in object data store in key and value paire formate.
+-we can access object data outside for that we write object.keyName.
+-object denoted by {}
+
+*how to change object data;
+*Array of object 
+*how to display arrarty of object data
+
+*How to change src data from img tag 
+Task1: toggle image task;
+Task2:change multiple images;
+
+*Callback function: passing one function as an argument inside another function is called Callback function.
+
+*settimeOut method: it will call another method only once after perticular time interval.
+                    -it takes two parameter 1.Callback function,2.time in millisecond
+
+*setInterval method: it will call another method multiple time after perticular time interval.
+                    -it takes two parameter 1.Callback function,2.time in millisecond
+
+
+*Date and its method 
+-if you want to get date and time in web page by using Javascript for that first we have create object of date class.
+in Javascript date class return date and time from browser.
+syntax:   let dateObj = new Date();
+
+sun=0,mon=1,tue=2......sat=6 
+jan=0..............dec=11 
+
+How to set date and time 
+let date = new Date(year,month,date,hourse,second,millisecond)
+
+How to create digital clock 
+
+step1: create remote repository
+step2: create folder and open in vs code editor and write code in it.
+step3: open terminal with option GitBash 
+step4: in terminal write 
+        git init
+step5: configure remote repository with local repository 
+        git remote add origin https://github.com/Panchashil/html-css-bootstrap-project.git
+step6: comit code 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

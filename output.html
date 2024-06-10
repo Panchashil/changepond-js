@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="d1"></h1>
+    <h2 id="d2"></h2>
+    <h2 id="d3">Good Morning Friends</h2>
+
+    <script>
+      // 1.document.write()
+      document.write("Welcome You All In JS Session <br>");
+      document.write(100 + 400);
+
+      // 2.window.alert()
+      // window.alert("How are You all");
+      window.alert(1000 - 800);
+
+      //  3.console.log()
+      console.log("Display output in browser console");
+      console.log(5 * 5);
+      //4. DOM
+      // here we set value or data
+      document.getElementById("d1").innerHTML =
+        "My Name is Panchashil Wankhede";
+      document.getElementById("d2").innerHTML = "I live In Pune";
+
+      //    console.log( document.getElementById("d1"));
+      // here we set style
+      document.getElementById("d1").style.color = "Blue";
+      document.getElementById("d2").style.backgroundColor = "yellow";
+    
+      // here we get data by using DOM 
+      let data = document.getElementById("d3").innerHTML; 
+      console.log(data);
+    </script>
+  </body>
+</html>
