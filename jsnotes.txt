@@ -214,7 +214,18 @@ Task1:- perform validation for lname,password,email,contact,gender
 *perform form validation before submitting form 
 -for this we use onblur event 
 Task1:- perform validation for password,
+===========================================================
+12/6/24
 
+*How to merge two or more array.
+1. by using concat method
+2. by using spread operator 
+
+*destructuring: creating constant variable and storing data in it.
+               we can destructure array and object data.
+
+
+               
 
 
 
